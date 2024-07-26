@@ -1,7 +1,11 @@
-Feature: Search Functionality
+Feature: Calculator
 
-  Scenario: Successful search with a valid keyword
-    Given the user is on the homepage
-    When the user enters "Cucumber" into the search bar
-    And the user presses the search button
-    Then the search results should display items related to "Banana"
+  Scenario: Addition
+    Given the calculator is started
+    When the user enters "2 + 3"
+    Then the result should be "5"
+
+  Scenario: Subtraction
+    Given the calculator is started
+    When the user enters "5 - 2"
+    Then the result should be "3"
