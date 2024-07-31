@@ -69,6 +69,13 @@
     </dependency>
 
     <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.11.0-M2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
       <groupId>me.jvt.cucumber</groupId>
       <artifactId>reporting-plugin</artifactId>
       <version>7.2.0</version>
