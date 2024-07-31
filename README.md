@@ -317,10 +317,9 @@ failing.
 
 ## See scenario reported as passing
 
-Let’s do the minimum we need to make the scenario pass. In this case,
-that means making our
-<span class="text-java">method</span><span class="is-hidden text-javascript">function</span><span class="is-hidden text-ruby">block</span><span class="is-hidden text-kotlin">function</span><span class="is-hidden text-scala">function</span>
-return `Nope`:
+Let’s do the minimum we need to make the scenario pass. In this case, that means making our method return `Nope`:
+
+
 
 ``` java
 static String isItFriday(String today) {
@@ -569,20 +568,9 @@ Feature: Is it Friday yet?
 
 Now that we have working code, we should do some refactoring:
 
-- We should move the `isItFriday`
-    <span class="text-java">method</span><span class="is-hidden text-javascript">function</span><span class="is-hidden text-ruby">block</span><span class="is-hidden text-kotlin">function</span><span class="is-hidden text-scala">function</span>
-    out from the test code into production code.
-
-- We could at some point extract helper methods from our step
-    definition, for
-    <span class="text-java">methods</span><span class="is-hidden text-kotlin">functions</span><span class="is-hidden text-javascript">functions</span><span class="is-hidden text-ruby">blocks</span>
-    we use in several places.
+- We should move the `isItFriday` method out from the test code into production code.
+- We could at some point extract helper methods from our step definition, for methods we use in several places.
 
 ## Summary
 
-In this brief tutorial you’ve seen how to install Cucumber, how to
-follow the BDD process to develop a
-<span class="text-java">method</span><span class="is-hidden text-javascript">function</span><span class="is-hidden text-ruby">block</span><span class="is-hidden text-kotlin">function</span><span class="is-hidden text-scala">function</span>,
-and how to use that
-<span class="text-java">method</span><span class="is-hidden text-javascript">function</span><span class="is-hidden text-ruby">block</span><span class="is-hidden text-kotlin">function</span><span class="is-hidden text-scala">function</span>
-to evaluate multiple scenarios!
+In this brief tutorial you’ve seen how to install Cucumber, how to follow the BDD process to develop a method, and how to use that method to evaluate multiple scenarios!
