@@ -29,4 +29,9 @@ public class SearchSteps {
     public void i_should_be_told(String expectedAnswer) {
         assertEquals(expectedAnswer, actualAnswer);
     }
+
+    @Given("today is Friday")
+    public void today_is_Friday() {
+        today = "Friday";
+    }
 }
